@@ -55,7 +55,7 @@ body {
   padding: 1rem;
   width: 100%;
   max-width: 300px;
-  height: 4500px; /* Fixed height for uniformity */
+  height: 450px; /* Fixed height for uniformity */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
