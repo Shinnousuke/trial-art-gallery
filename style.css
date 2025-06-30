@@ -65,12 +65,13 @@ body {
 }
 
 .card img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: auto;
-  max-height: 200px; /* Limits overly tall images */
-  object-fit: contain;
+  max-height: 250px;
   display: block;
   margin: 0 auto;
+  object-fit: contain; /* keeps aspect ratio, no distortion */
 }
 
 
