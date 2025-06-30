@@ -51,11 +51,18 @@ body {
 }
 
 .card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  height: 500px; /* Fixed height for uniformity */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: auto;
 }
-
 
 .card img {
   width: 100%;
