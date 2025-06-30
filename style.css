@@ -70,8 +70,8 @@ body {
   height: auto;
   max-height: 250px;
   display: block;
-  margin: 0 auto;
-  object-fit: contain; /* keeps aspect ratio, no distortion */
+  margin: 0 auto 1rem auto; /* <-- Adds space below the image */
+  object-fit: contain;
 }
 
 
